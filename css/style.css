@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  background-image: url("./img/coupon.jpg");
+  background-image: url("./img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -50,14 +50,14 @@ header #title h1 {
   font-size: 5.5em;
 }
 
-header #title #title-coupon {
+header #title #title-1 {
   color: mediumseagreen;
   position: relative;
   margin-right: -5px;
   z-index: 10;
 }
 
-header #title #title-clipper {
+header #title #title-2 {
   color: darkolivegreen;
   position: relative;
   margin-left: -15px;
@@ -427,6 +427,7 @@ footer {
           flex-direction: column;
   text-transform: uppercase;
   font-size: 2.0em;
+  width: 100%;
 }
 
 .title h3 {
